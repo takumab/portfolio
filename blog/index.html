@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h4>Tacuma Bellford</h4>
+<h5>Let's talk about languages!</h5>
+
+{% for post in site.post %}
+  <time>{{ post.date | date: %b %-d, %Y }}</time>
+  <h3><a href="{{ post.url | prepend site.baseurl }}">{{ post.title }}</a></h3>
+{% endfor %}
