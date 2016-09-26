@@ -1,6 +1,6 @@
 body {
 	background: #363547;
-
+	padding: 70px;
 }
 
 
@@ -106,13 +106,14 @@ span.icon-bar {
 
 #about {
 	color: $text-color;
-	height: 50em;
+	height: 45em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	.container {
+	.container  {
 		margin: 0;
+		padding: 0;
 	}
 }
 
@@ -123,6 +124,10 @@ h1 {
 }
 
 @media screen and (max-width: 767px){
+	#about {
+		display: inline-block;
+
+	}
 	h1 {
 		font-size: 2em;
 		text-align: left;
@@ -133,12 +138,85 @@ h1 {
 /* Projects Page */
 
 #projet {
+	margin-top: 10px;
+	height: 45em;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.my-container {
+		margin: 0;
+
+	}
+
+	h2 {
+		font-family: $header-font;
+		color: $text-color;
+		text-align: center;
+		font-size: 3.5em;
+		padding-top: 0px;
+	}
+}
 
 
+@media screen and (max-width: 1200px) {
+	.my-container {
+		position: absolute;
+		top: 13%;
 
 
+	}
+
+	#projet h2 {
+		font-size: 2.5em;
+	}
+}
+
+/* Mobile First */
+
+.my-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img{
+  display: block;
+	margin: 0;
+
+}
+
+.cell {
+  margin: 1rem;
+}
 
 
+/* Tablet */
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+  }
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1000px){
+  .cell {
+    width: calc(33.3333% - 2rem);
+		overflow-y: hidden;
+  }
 }
 
 /*img {
