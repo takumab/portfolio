@@ -2,7 +2,7 @@
 
 body {
 	background: #363547;
-	padding: 70px;
+	padding-top: 70px;
 }
 
 
@@ -357,7 +357,39 @@ h1 {
 
 
 
+/* Blog */
 
+h1,
+h3,
+h4,
+h5,
+time,
+#blog-head {
+	color: $text-color;
+}
+
+.pics {
+	padding-top: 70px;
+	margin: 0 auto;
+}
+
+p {
+	color: $text-color;
+	text-align: justify;
+	font-size: 1.2em;
+	padding-top: 15px;
+}
+
+.posts {
+
+	a {
+		text-decoration: none;
+		color: $text-color;
+		font-family: $header-font;
+		list-style-type: none;
+	}
+
+}
 
 
 
