@@ -8,6 +8,4 @@ categories: jekyll update
 
 # The Journey
 
-I have finally arrived at a destination where the road has seemed to be paved width pot holes.
-Although I have yet to make it where I would like to be (**Imposter Syndrome**), I envision my goals
-inching closer and closer each day. 
+I have finally arrived at a destination where the road has seemed to be paved width pot holes. Although I have yet to make it where I would like to be (**Imposter Syndrome**) I envision my goals inching closer and closer each day. The problem with this life is sometimes it is hard to manage many things at once.
